@@ -1,11 +1,19 @@
 # sumaxmlrpc - written in Go
-
 This application has functions which can:
 list active systems
 list available packages of systems
 schedule upgrade jobs
 update GPG or SSL content defined in SUSE Manager.
 
+<<<<<<< HEAD
+This application has functions which can:
+list active systems
+list available packages of systems
+schedule upgrade jobs
+update GPG or SSL content defined in SUSE Manager.
+
+=======
+>>>>>>> 773e3a2 (updated readme)
 This program needs a SUSE Manager login config file in which the server, userid and password are stored.
 The password will be encrypted. Use generate a encrypted password in the config file follow steps below:
 
@@ -44,4 +52,8 @@ __For instance:__
 Update SSL definition in SUSE Manager:
 ```
 sumaxmlrpc -sumaconf sumaconfg.yaml gpgsslupdate -file /home/bjin/temp/testgpg.key -description "testkey" -type "SSL"
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 773e3a2 (updated readme)
