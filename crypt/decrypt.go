@@ -25,7 +25,7 @@ func (d *Sumaconf) Decrypt_Sumaconf(conf_file *string) Sumaconf {
 	}
 
 	getEnv("SUMAPROM_ENCRYPT") */
-	fmt.Printf("conf_file %s\n", *conf_file)
+	//fmt.Printf("conf_file %s\n", *conf_file)
 	var key []byte
 	if os.Getenv("SUMAPROM_ENCRYPT") != "" {
 		key = []byte(os.Getenv("SUMAPROM_ENCRYPT"))
