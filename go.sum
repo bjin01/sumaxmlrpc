@@ -1,5 +1,3 @@
-alexejk.io/go-xmlrpc v0.4.0 h1:HvaeCuACuF2NBJruG90AJKc5JHRGj9vKxu2ltJntQR4=
-alexejk.io/go-xmlrpc v0.4.0/go.mod h1:M7f2OzqvZIWrN1LftR4uwW/bLpxrFoQYjWfm4gQB4JA=
 github.com/divan/gorilla-xmlrpc v0.0.0-20190926132722-f0686da74fda h1:q6BJCx6rxRJv/sLreclgzu4dK4dPF8x48afqcXtRtLQ=
 github.com/divan/gorilla-xmlrpc v0.0.0-20190926132722-f0686da74fda/go.mod h1:3Cp6mWQcmK3erqkPrriKEkSpok0LO1uB2M5GxGzifhc=
 github.com/gorilla/rpc v1.2.0 h1:WvvdC2lNeT1SP32zrIce5l0ECBfbAlmrmSBsuc57wfk=
@@ -12,6 +10,7 @@ golang.org/x/sys v0.4.0 h1:Zr2JFtRQNX3BCZ8YtxRE9hNJYC8J6I1MVbMg6owUp18=
 golang.org/x/sys v0.4.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/term v0.4.0 h1:O7UWfv5+A2qiuulQk30kVinPoMtoIPeVaKLEgLpVkvg=
 golang.org/x/term v0.4.0/go.mod h1:9P2UbLfCdcvo3p/nzKvsmas4TnlujnuoV9hGgYzW1lQ=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
 gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=

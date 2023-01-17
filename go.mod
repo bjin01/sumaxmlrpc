@@ -1,6 +1,6 @@
 module sumaxmlrpc
 
-go 1.19
+go 1.18
 
 require github.com/divan/gorilla-xmlrpc v0.0.0-20190926132722-f0686da74fda
 
