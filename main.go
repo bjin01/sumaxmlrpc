@@ -23,6 +23,11 @@ Subcommands:
   schedule_upgrades
     -schedule (provide number of hours to start the job from now)
 
+  gpgsslupdate
+		-file (the path to file that should be imported)
+		-description (the name of the GPG or SSL definition)
+		-type ("GPG" or "SSL")
+
 e.g.:
   <program> -sumaconf sumaconfg.yaml schedule_upgrades -schedule 3
 
@@ -125,8 +130,8 @@ func main() {
 		ListJobs_yes = true
 	case "gpgsslupdate":
 		gpgsslupdate.Parse(args[1:])
-		fmt.Printf("get file path %s\n", *gpgssl_file)
-		fmt.Printf("get description name %s\n", *gpgssl_description)
+		log.Printf("get file path %s\n", *gpgssl_file)
+		log.Printf("get description name %s\n", *gpgssl_description)
 		Gpgsslupdate_yes = true
 	default:
 		fmt.Println("expected a subcommands")
