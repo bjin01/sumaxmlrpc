@@ -37,6 +37,8 @@ sudo cp sumaxmlrpc /usr/local/bin
 
 ## Usage:
 Run the binary with -h for help and see the subcommands and arguments to continue.
+The binary can be executed as non-sudo user.
+
 ```
 sumaxmlrpc --help
 ```
