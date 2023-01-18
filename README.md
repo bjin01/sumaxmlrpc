@@ -30,7 +30,7 @@ sumaxmlrpc -create-sumaconf sumaconfig.yaml
 
 ## Download the binary: Change the Url to the release you want to download.
 ```
-wget https://github.com/bjin01/sumaxmlrpc/releases/download/latest/sumaxmlrpc_Linux_x86_64.tar.gz
+wget https://github.com/bjin01/sumaxmlrpc/releases/latest/download/sumaxmlrpc_Linux_x86_64.tar.gz
 tar -xvf sumaxmlrpc_Linux_x86_64.tar.gz
 sudo cp sumaxmlrpc /usr/local/bin
 ```
