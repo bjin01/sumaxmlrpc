@@ -85,7 +85,8 @@ func init() {
 		step = "exit"
 	} else if len(*conf_file) == 0 && len(*create_config) > 0 {
 		crypt.PromptUser(create_config)
-		step = "create_config"
+		log.Printf("suma conf created: %s\n", *create_config)
+		os.Exit(0)
 	} else {
 		sumaconf = sumaconf.Decrypt_Sumaconf(conf_file)
 		step = "start_run"
